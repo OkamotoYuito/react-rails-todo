@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Ruby / Rails
+.bundle/
+log/*
+tmp/*
+vendor/bundle/
+*.sqlite3
+*.sqlite3-journal
+config/master.key
+.env
+
+# Node / React frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# npm / yarn logs
+frontend/yarn-error.log
+frontend/npm-debug.log*
+
+# VSCode
+.vscode/
